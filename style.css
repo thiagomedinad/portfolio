@@ -467,7 +467,7 @@ body {
   color: #333;
   background-color: #f8f9fa;
   margin: 0;
-  padding: 0;
+  padding: 20px;  /* Adiciona padding ao corpo inteiro */
 }
 
 header {
@@ -478,9 +478,10 @@ header {
 }
 
 header h1 {
-  margin: 0;
+  margin: 0 auto;
   padding: 0 20px;
   font-size: 24px;
+  max-width: 800px;  /* Limita a largura do título para consistência */
 }
 
 .article-content {
@@ -490,6 +491,7 @@ header h1 {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden; /* Garante que todo o conteúdo esteja contido */
 }
 
 .article-content h2 {
@@ -505,20 +507,10 @@ header h1 {
 
 footer {
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;  /* Aumenta o padding do rodapé */
   background-color: #f1f1f1;
   color: #666;
   font-size: 14px;
+  margin-top: 20px;  /* Garante espaço entre o conteúdo e o rodapé */
 }
 
-
-/* FOOTER SECTION */
-
-footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
-  text-align: center;
-}
