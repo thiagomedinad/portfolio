@@ -462,6 +462,56 @@ article .icon {
   text-decoration: none; /* Remove o sublinhado de links */
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007BFF;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 24px;
+}
+
+.article-content {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.article-content h2 {
+  color: #007BFF;
+  margin-top: 20px;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  color: #666;
+  font-size: 14px;
+}
+
+
 /* FOOTER SECTION */
 
 footer {
